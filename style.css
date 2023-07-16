@@ -53,8 +53,12 @@ button:hover{
 .sec_2 .h1{
     color: #04dcf0;
     box-shadow: 5px 0px 20px #04dcf0;
+    text-align: center;
     letter-spacing: 5px;
     width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sec_2 .cercle{
