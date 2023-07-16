@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+}
+
+
+.navbar {
+    background: #04dcf0;
+}
+.visible{
+    background: transparent;
+    
+}
+
+
+.fa:hover{
+    color: white;
+}
+
+.navbar-nav .nav-link{
+    font-weight: bold;
+    color: white;
+    
+}
+/* section 1 */
+
+.sec1_img img{
+    box-shadow: 0 0 50px #04dcf0;
+}
+
+#dev-text{
+    color: #04dcf0;
+    font-weight: bold;
+}
+button{
+    background: #04dcf0;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.p-2 {
+    border-radius: 20px 10px;
+}
+
+button:hover{
+    color: black;
+}
+
+/* section 2 */
+.sec_2 .h1{
+    color: #04dcf0;
+    box-shadow: 5px 0px 20px #04dcf0;
+    letter-spacing: 5px;
+    width: auto;
+}
+
+.sec_2 .cercle{
+    border: 10px solid #04dcf0;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px #04dcf0;
+}
+
+.les_cercles{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+} 
+
+.bas {
+    position: relative;
+    top: 50px;
+}
+
+svg{
+    position: relative;
+    top: -210px;
+    left: -25px;
+}
+circle{
+    fill: none;
+    stroke: white;
+    stroke-width: 12px;
+    stroke-dasharray: 900;
+    stroke-dashoffset: 900;
+}
+
+
+.svg1 circle {
+    stroke-dasharray: 900;
+    stroke-dashoffset: 900;
+    animation: circle1 4s linear forwards;
+}
+.svg2 circle {
+    stroke-dasharray: 900;
+    stroke-dashoffset: 900;
+    animation: circle2 4s linear forwards;
+}
+.svg3 circle {
+    stroke-dasharray: 900;
+    stroke-dashoffset: 900;
+    animation: circle3 4s linear forwards;
+}
+.svg4 circle {
+    animation: circle4 4s linear forwards;
+}
+
+.sec2_img{
+    filter: drop-shadow(7px 20px 7px #04dcf0);
+    animation: sec2Img 6s ease-out infinite;
+}
+
+.sec2_text .p {
+    line-height: 25px;
+    letter-spacing: 3px;
+}
+
+.h4{
+    color: white;
+    box-shadow: 5px 0px 20px #04dcf0;
+    letter-spacing: 5px;
+    width: 50%;
+}
+
+.sec_3 .h1{
+    color: #04dcf0;
+    box-shadow: 5px 0px 20px #04dcf0;
+    letter-spacing: 5px;
+    width: auto;
+}
+
+.sec_3 .h1-a{
+    display: flex;
+    color: #04dcf0;
+    letter-spacing: 5px;
+    width: auto;
+}
+
+.container_sec{
+    margin-top: 150px;
+}
+
+.p1-a span {
+    background: #04dcf0;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.d-1-1 {
+    margin-top: -60px;
+}
+.d-1-2{
+    margin-top: -120px;
+}
+
+/* porfolio */
+.sec_4 .h1{
+    color: #04dcf0;
+    box-shadow: 5px 0px 20px #04dcf0;
+    letter-spacing: 5px;
+    width: auto;
+}
+.porfolio{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    justify-items: center;
+    gap: 30px;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9{
+    border: 1px solid #04dcf0;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.img1{
+    background-image: url(images/galaxie.avif);
+    cursor: pointer;
+}
+.img1:hover{
+    background-image: url(images/galaxie2.avif);
+    transition: 2s;
+}
+.img2{
+    background-image: url(images/galaxie2.avif);
+   
+}
+.img2:hover{
+    background-image: url(images/galaxie3.avif);
+    transition: 2s;
+}
+.img3{
+    background-image: url(images/galaxie3.avif);
+}
+.img3:hover{
+    background-image: url(images/galaxie.avif);
+    transition: 2s;
+}
+.img4{
+    background-image: url(images/nature1.avif);
+
+}
+.img4:hover{
+    background-image: url(images/naruto2.avif);
+    transition: 2s;
+}
+.img5{
+    background-image: url(images/nature2.avif);
+
+}
+.img5:hover{
+    background-image: url(images/nature3.avif);
+    transition: 2s;
+}
+.img6{
+    background-image: url(images/naruto2.avif);
+}
+.img6:hover{
+    background-image: url(images/nature1.avif);
+    transition: 2s;
+}
+
+.img7{
+    background-image: url(images/developpement.avif);
+}
+.img7:hover{
+    background-image: url(images/dev3.avif);
+    transition: 2s;
+}
+.img8{
+    background-image: url(images/developpement1.avif);
+}
+.img8:hover{
+    background-image: url(images/developpement.avif);
+    transition: 2s;
+}
+.img9{
+    background-image: url(images/dev3.avif);
+}
+.img9:hover{
+    background-image: url(images/developpement1.avif);
+    transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* animation css */
+@keyframes circle1 {
+    100%{
+        stroke-dashoffset: 260;
+    }
+}
+@keyframes circle2 {
+    100%{
+        stroke-dashoffset: 530;
+    }
+}
+@keyframes circle3 {
+    100%{
+        stroke-dashoffset: 750;
+    }
+}
+@keyframes circle4 {
+    100%{
+        stroke-dashoffset: 800;
+    }
+}
+@keyframes sec2Img {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-60px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
