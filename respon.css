@@ -17,6 +17,11 @@
        align-items: center;
     }
 
+    .anime {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
     .container_sec{
         display: flex;
         flex-direction: column;
@@ -28,8 +33,10 @@
     .sec_2 .h1,
     .sec_3 .h1,
     .sec_4 .h1{
-        position: relative;
-        top: 10px;
+        background: none;
+        border: none;
+        color: #04dcf0;
+        filter: drop-shadow(5px 2px 5px #fff);
     }
 
     .d-1-1, .d-1-2 {

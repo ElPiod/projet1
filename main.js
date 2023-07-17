@@ -55,17 +55,23 @@ setInterval( () => {
 const navbar = document.getElementById('navbar')
 const text = document.getElementById('text')
 const icon = document.getElementById('icon')
+const toggler = document.querySelector('.bars')
 window.addEventListener('scroll', () => {
     if(window.scrollY > 20){
         navbar.classList.add('visible')
         text.style.background = '#04dcf0'
         icon.style.color = '#04dcf0'
+        toggler.style.color = '#04dcf0'
         
     } else{
         navbar.classList.remove('visible')
         icon.style.color = 'white'
+        toggler.style.color = 'white'
+
+
     }
 })
+
 
 
 
