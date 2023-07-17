@@ -28,7 +28,8 @@
     .sec_2 .h1,
     .sec_3 .h1,
     .sec_4 .h1{
-        
+        position: relative;
+        top: 10px;
     }
 
     .d-1-1, .d-1-2 {
