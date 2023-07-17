@@ -51,14 +51,11 @@ button:hover{
 
 /* section 2 */
 .sec_2 .h1{
-    color: #04dcf0;
-    box-shadow: 5px 0px 20px #04dcf0;
-    text-align: center;
+    color: #fff;
+    border: 1px solid #04dcf0;
+    background: #04dcf0;
     letter-spacing: 5px;
     width: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .sec_2 .cercle{
@@ -130,18 +127,13 @@ circle{
 }
 
 .sec_3 .h1{
-    color: #04dcf0;
-    box-shadow: 5px 0px 20px #04dcf0;
+    color: #fff;
+    border: 1px solid #04dcf0;
+    background: #04dcf0;
     letter-spacing: 5px;
     width: auto;
 }
 
-.sec_3 .h1-a{
-    display: flex;
-    color: #04dcf0;
-    letter-spacing: 5px;
-    width: auto;
-}
 
 .container_sec{
     margin-top: 150px;
@@ -162,8 +154,9 @@ circle{
 
 /* porfolio */
 .sec_4 .h1{
-    color: #04dcf0;
-    box-shadow: 5px 0px 20px #04dcf0;
+    color: #fff;
+    border: 1px solid #04dcf0;
+    background: #04dcf0;
     letter-spacing: 5px;
     width: auto;
 }
