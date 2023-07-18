@@ -1,14 +1,80 @@
-/* mobile */
-@media screen and (max-width: 567px) {
+/* tablette */
+@media screen and (max-width: 820px) {
     .les_cercles{
+        display: grid;
+        justify-content: center;
+        gap: 20px; 
+    }
+    svg{
+        position: relative;
+        top: -200px;
+        left: -25px;
+    }
+    .exp{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .anime {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    .container_sec{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+    }
+    .sec_2 .h1,
+    .sec_3 .h1,
+    .sec_4 .h1{
+        background: none;
+        border: none;
+        color: #04dcf0;
+        filter: drop-shadow(5px 2px 5px #fff);
+    }
+    .d-1-1, .d-1-2 {
+        margin-top: 0px;
+    }
+
+    .porfolio{
+        display: grid;
+        grid-template-columns: repeat(2, 3fr);
+    }
+    .porfolio .img3{
+        display: none;
+    }
+    .inputs_sec {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .form_controle{
+        position: relative;
+        left: -90px;
+    }
+    input, .inputs, select, .btn2{
+        width: 150%;
+    }
+
+   
+}
+
+/* tablette 2 */
+@media screen and (max-width: 768px) {
+    .les_cercles{
+        display: grid;
+        justify-content: center;
+        gap: 20px;
         
     }
     svg{
         position: relative;
-        top: -190px;
+        top: -200px;
         left: -25px;
     }
     .exp{
@@ -45,7 +111,108 @@
 
     .porfolio{
         display: grid;
+        grid-template-columns: repeat(2, 3fr);
+    }
+
+    .porfolio .img3{
+        display: none;
+    }
+
+    .inputs_sec {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .form_controle{
+        position: relative;
+        left: -90px;
+    }
+
+    input, .inputs, select, .btn2{
+        width: 150%;
+    }
+
+   
+}
+
+/* mobile */
+@media screen and (max-width: 567px) {
+    .les_cercles{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    svg{
+        position: relative;
+        top: -190px;
+        left: -25px;
+    }
+    .exp{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+
+    .anime {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .container_sec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    .sec_2 .h1,
+    .sec_3 .h1,
+    .sec_4 .h1,
+    .sec_5 .h1{
+        background: none;
+        border: none;
+        color: #04dcf0;
+        filter: drop-shadow(5px 2px 5px #fff);
+    }
+
+    .d-1-1, .d-1-2 {
+        margin-top: 0px;
+    }
+
+    .porfolio{
+        display: grid;
         grid-template-columns: repeat(1, 3fr);
     }
+
+    .inputs{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input2{
+        margin-top: 20px;
+    }
+
+    .inputs_sec {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .form_controle{
+        position: relative;
+        left: 0px;
+    }
+    input, .inputs, select, .btn2{
+        width: 100%;
+    }
 }
+
+
 

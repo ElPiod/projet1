@@ -247,6 +247,65 @@ circle{
     transition: 2s;
 }
 
+/* section 6 */
+.sec_5 .h1{
+    color: #fff;
+     border: 1px solid #04dcf0;
+     background: #04dcf0;
+     letter-spacing: 5px;
+     width: auto;
+ }
+input, select, .btn2 {
+    width: 100%;
+}
+input:focus,
+select:focus{
+    outline: none;
+    border-color: #04dcf0;
+}
+
+input::placeholder,
+select{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='number'],
+select{
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* footer */
+
+
+.icon a {
+    border: 1px solid #04dcf0;
+    width: 50px; height: 50px; border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+    top: -20px;
+}
+
+.icon a{
+    color: #04dcf0;
+}
+
+.icon a:hover{
+    background-color: #04dcf0;
+    color: #fff;
+}
+
+.fab{
+    font-size: 25px;
+    position: relative;
+    top: 2px;
+}
 
 
 
