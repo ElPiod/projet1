@@ -55,7 +55,7 @@
     }
     .form_controle{
         position: relative;
-        left: -90px;
+        left: -66px;
     }
     input, .inputs, select, .btn2{
         width: 150%;
@@ -155,9 +155,11 @@
         gap: 30px;
     }
     .form_controle{
-        position: relative;
-        left: -60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
+
     .foot{
         position: relative;
         left: 5px;
