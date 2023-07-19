@@ -21,17 +21,14 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
         <div class="container-fluid d-flex justify-content-between">
-          <a class="navbar-brand text-uppercase fw-bold" href="#"><i class="fa fa-home" id="icon"></i></a>
+          <a class="navbar-brand text-uppercase fw-bold" href="#top"><i class="fa fa-home" id="icon"></i></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa fa-bars bars"></i>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav" id="ul">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-dark" href="#" id="text">QUI SUIS-JE</a>
+                <a class="nav-link text-dark" href="#top" id="text">QUI SUIS-JE</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#sec_2">EXPERIENCES</a>
@@ -43,7 +40,7 @@
                 <a class="nav-link" href="#sec_4">PORFOLIO</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
+                <a class="nav-link" href="#sec_5">CONTACT</a>
               </li>
             </ul>
           </div>
@@ -186,19 +183,31 @@
             <img src="images/developpement.avif" class="img-fluid">
           </div>
           <div class="col-md-6">
-            <form class="form_controle" id="form_controle">
+            <form class="form_controle" action="action_page.php" name="myform">
               <div class="inputs d-flex gap-4">
-                <input type="text" class="input1 py-2" id="input1" placeholder="Entrez votre prenom">
-                <input type="text" class="input2" id="input2" placeholder="Entrez votre nom">
+                <div class="input-icon">
+                  <input type="text" class="input1 py-2" id="input1" name="fname" placeholder="Entrez votre prenom">
+                  <i class="fa-solid fa-circle-exclamation" id="iconError"></i>
+                </div>
+                <div class="input-icon">
+                  <input type="text" class="input2 py-2" id="input2" name="fname1" placeholder="Entrez votre nom">
+                  <i class="fa-solid fa-circle-exclamation" id="iconError1"></i>
+                </div>
               </div>
               <div class="input my-4">
-                <input type="email" class="input3 py-2 my-4" id="input3" placeholder="Email">
-                <input type="number" class="input4 py-2 my-4" id="input4" placeholder="Téléphone">
+                <div class="input-icon">
+                  <input type="email" class="input3 py-2 my-4" id="input3" placeholder="Email">
+                  <i class="fa-solid fa-circle-exclamation" id="iconError2"></i>
+                </div>
+                <div class="input-icon">
+                  <input type="number" class="input4 py-2 my-4" id="input4" placeholder="Téléphone">
+                  <i class="fa-solid fa-circle-exclamation" id="iconError3"></i>
+                </div>
                 <select name="radio" id="radio" class="radio py-2 my-4">
                   <option value="M">Homme</option>
                   <option value="F">Femme</option>
                 </select>
-                <button class="btn2 btn-primary p-2 my-3" onclick="btn()">Submit</button>
+                <button class="btn2 p-2 my-3" id="myAnchor">Submit</button>
               </div>
             </form>
           </div>
@@ -212,7 +221,7 @@
     <footer class="footer" id="footer">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 d-flex justify-content-evenly">
+          <div class="col-md-6 d-flex justify-content-evenly">
             <div class="icon">
               <a href="#"><i class="fab fa-twitter"></i></a>
             </div>
@@ -222,35 +231,17 @@
             <div class="icon">
               <a href="#"><i class="fab fa-facebook"></i></a>
             </div>
+            <div class="icon">
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
           </div>
-          <div class="col-md-6"></div>
+          <div class="col-md-6">
+            <p class="fw-bold foot text-center float-md-end">copyright © Elhadji Malick Diop 2023</p>
+          </div>
         </div>
       </div>
     </footer>
     
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <!-- link boostrap -->

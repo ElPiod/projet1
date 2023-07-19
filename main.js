@@ -72,6 +72,44 @@ window.addEventListener('scroll', () => {
     }
 })
 
+//Formulaire
+// const validForm = document.getElementById('form_controle')
+const prenom = document.getElementById('input1')
+const nom = document.getElementById('input2')
+const email = document.getElementById('input3')
+const tel = document.getElementById('input4')
+const select = document.getElementById('radio')
+const button = document.getElementById('myAnchor')
+const iconI = document.getElementById('iconError')
+const iconI1 = document.getElementById('iconError1')
+const iconI2 = document.getElementById('iconError2')
+const iconI3 = document.getElementById('iconError3')
 
+button.addEventListener("click", function(event){
+    event.preventDefault()
+
+    if (prenom.value, nom.value, email.value, tel.value == "") {
+        prenom.style.borderColor = 'red'
+        nom.style.borderColor = 'red'
+        email.style.borderColor = 'red'
+        tel.style.borderColor = 'red'
+        iconI.classList.add('visible'), iconI1.classList.add('visible')
+        iconI2.classList.add('visible'), iconI3.classList.add('visible')
+        iconI.style.color = 'red', iconI1.style.color = 'red'
+        iconI2.style.color = 'red', iconI3.style.color = 'red'
+        
+    } else {
+        prenom.style.borderColor = 'lime'
+        nom.style.borderColor = 'lime'
+        email.style.borderColor = 'lime'
+        tel.style.borderColor = 'lime'
+        iconI.classList.add('visible'), iconI1.classList.add('visible')
+        iconI2.classList.add('visible'), iconI3.classList.add('visible')
+        iconI.style.color = 'lime', iconI1.style.color = 'lime'
+        iconI2.style.color = 'lime', iconI3.style.color = 'lime'
+        
+    }
+})
+  
 
 
