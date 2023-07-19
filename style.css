@@ -276,10 +276,14 @@ select{
 
 input[type='text'],
 input[type='email'],
-input[type='number'],
-select{
+input[type='number']{
     padding: 10px;
     font-size: 20px;
+    position: relative;
+    top: 10px;
+}
+.radio{
+    padding: 15px;       
 }
 
 .input-icon{
