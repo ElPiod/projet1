@@ -59,6 +59,7 @@
         left: -80px;
     }
 
+   
     .inputs{
         display: flex;
         flex-direction: column;
@@ -146,6 +147,10 @@
 
     .input2{
         margin-top: 20px;
+    }
+    input::placeholder{
+        position: relative;
+        top: 2px;
     }
 
     .inputs_sec {
