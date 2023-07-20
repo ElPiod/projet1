@@ -29,7 +29,8 @@
     }
     .sec_2 .h1,
     .sec_3 .h1,
-    .sec_4 .h1{
+    .sec_4 .h1,
+    .sec_5 .h1{
         background: none;
         border: none;
         color: #04dcf0;
@@ -67,6 +68,10 @@
     
     .input2{
         margin-top: 20px;
+    }
+
+    select option{
+        color: black;
     }
 
     .footer .row{
@@ -156,6 +161,10 @@
     select{
         padding: 5px;
         border-radius: 0px;
+    }
+
+    select option{
+        color: black;
     }
 
     .inputs_sec {
