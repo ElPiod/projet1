@@ -285,8 +285,6 @@ input[type='email'],
 input[type='number']{
     padding: 10px;
     font-size: 20px;
-    position: relative;
-    top: 10px;
 }
 .radio{
     padding: 10px;       
