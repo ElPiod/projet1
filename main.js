@@ -97,6 +97,7 @@ button.addEventListener("click", function(event){
         iconI2.classList.add('visible'), iconI3.classList.add('visible')
         iconI.style.color = 'red', iconI1.style.color = 'red'
         iconI2.style.color = 'red', iconI3.style.color = 'red'
+        alert('vous devez tous remplir')
         
     } else {
         prenom.style.borderColor = 'lime'
