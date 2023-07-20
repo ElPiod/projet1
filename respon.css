@@ -53,6 +53,16 @@
         align-items: center;
         gap: 30px;
     }
+    .input, .inputs div {
+        width: 150%;
+        position: relative;
+        left: -80px;
+    }
+
+    .inputs{
+        display: flex;
+        flex-direction: column;
+    }
     
     .input2{
         margin-top: 20px;
@@ -126,7 +136,7 @@
     .input, .inputs div {
         width: 150%;
         position: relative;
-        left: -50px;
+        left: -40px;
     }
 
     .inputs{
