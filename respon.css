@@ -46,16 +46,6 @@
     .porfolio .img3{
         display: none;
     }
-    /* les inputs */
-    .inputs{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .input2{
-        margin-top: 20px;
-    }
-
     .inputs_sec {
         display: flex;
         flex-direction: column;
@@ -63,14 +53,10 @@
         align-items: center;
         gap: 30px;
     }
-    .form_controle{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    
+    .input2{
+        margin-top: 20px;
     }
-
-
-    /* footer */
 
     .footer .row{
         display: flex;
@@ -135,6 +121,12 @@
     .porfolio{
         display: grid;
         grid-template-columns: repeat(1, 3fr);
+    }
+
+    .input, .inputs div {
+        width: 150%;
+        position: relative;
+        left: -50px;
     }
 
     .inputs{
