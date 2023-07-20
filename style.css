@@ -259,9 +259,7 @@ circle{
      letter-spacing: 5px;
      width: auto;
  }
-input, select, .btn2, .inputs div {
-    width: 97.5%;
-}
+
 input:focus,
 select:focus{
     outline: none;
@@ -281,9 +279,15 @@ input[type='number']{
     font-size: 20px;
     position: relative;
     top: 10px;
+    width: 100%
+}
+.btn2 {
+    display: block;
+    width: 90%;
+    margin: auto;
 }
 .radio{
-    padding: 15px;       
+    padding: 10px;       
 }
 
 .input-icon{
