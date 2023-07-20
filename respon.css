@@ -153,6 +153,11 @@
         top: 2px;
     }
 
+    select{
+        padding: 5px;
+        border-radius: 0px;
+    }
+
     .inputs_sec {
         display: flex;
         flex-direction: column;
