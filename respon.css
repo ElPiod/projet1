@@ -46,6 +46,16 @@
     .porfolio .img3{
         display: none;
     }
+    /* les inputs */
+    .inputs{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input2{
+        margin-top: 20px;
+    }
+
     .inputs_sec {
         display: flex;
         flex-direction: column;
@@ -54,24 +64,13 @@
         gap: 30px;
     }
     .form_controle{
-        position: relative;
-        left: -66px;
-    }
-    input, .inputs, select, .btn2{
-        width: 150%;
-    }
-
-    .inputs{
         display: flex;
         flex-direction: column;
-        width: 159%;
+        justify-content: center;
     }
-    .input .input-icon {
-        width: 155%;
-    }
-    .input2{
-        margin-top: 20px;
-    }
+
+
+    /* footer */
 
     .footer .row{
         display: flex;
