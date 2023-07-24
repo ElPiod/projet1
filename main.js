@@ -113,4 +113,9 @@ button.addEventListener("click", function(event){
 })
   
 
-
+// const sectionDeux = document.getElementById('sec_2')
+// window.addEventListener('scroll', () => {
+//     if(window.scrollY > 50){
+//         sectionDeux.classList.add("sec_anim2")
+//     }
+// })

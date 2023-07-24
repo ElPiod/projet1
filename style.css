@@ -50,6 +50,17 @@ button:hover{
 }
 
 /* section 2 */
+.sec_anim2{
+    animation: secAnim2 5s ease-in;
+}
+@keyframes secAnim2 {
+    0%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(0%);
+    }
+}
 .sec_2 .h1{
     color: #fff;
     border: 1px solid #04dcf0;
